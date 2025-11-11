@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="606.0" height="407" viewBox="0 0 606.0 407">
+<svg xmlns="http://www.w3.org/2000/svg" width="606.0" height="389" viewBox="0 0 606.0 389">
     <!-- Styles -->
     <style>
         .terminal-bg { fill: #282c34; }
@@ -16,7 +16,7 @@
     </style>
 
     <!-- Background -->
-    <rect class="terminal-bg" width="606.0" height="407" rx="6"/>
+    <rect class="terminal-bg" width="606.0" height="389" rx="6"/>
 
     <!-- Header -->
     <rect class="terminal-header" width="606.0" height="35" rx="6"/>
@@ -28,7 +28,7 @@
     <circle class="terminal-button" cx="60" cy="18" r="6" fill="#27c93f"/>
 
     <!-- Title -->
-    <text class="terminal-text terminal-title" x="80" y="22">Stage 2 - Doc Agent (Claude CLI + LangGraph)</text>
+    <text class="terminal-text terminal-title" x="80" y="22">Stage 2 - Doc Agent (LangGraph)</text>
 
     <!-- Text content -->
     <text class="terminal-text" x="15" y="65">cd /Users/rohsunghyun/aisample/android-orchestration-demo-v2/stage2</text>
@@ -43,11 +43,10 @@
     <text class="terminal-text" x="15" y="227">  ▘▘ ▝▝    /Users/rohsunghyun/aisample/android-orchestration-demo-v2/stage2</text>
     <text class="terminal-text" x="15" y="245"></text>
     <text class="terminal-text" x="15" y="263">────────────────────────────────────────────────────────────────────────────────</text>
-    <text class="terminal-text" x="15" y="281">&gt; {&quot;command&quot;: &quot;DOCUMENT&quot;, &quot;files&quot;: [&quot;MainActivity.kt&quot;, &quot;WeatherScreen.kt&quot;,</text>
-    <text class="terminal-text success" x="15" y="299">  &quot;WeatherRepository.kt&quot;], &quot;test_status&quot;: &quot;success&quot;, &quot;coverage&quot;: 87}</text>
-    <text class="terminal-text" x="15" y="317"></text>
-    <text class="terminal-text" x="15" y="335">────────────────────────────────────────────────────────────────────────────────</text>
-    <text class="terminal-text" x="15" y="353">  ⏵⏵ bypass permissions on           ✗ Auto-update failed · Try claude doctor</text>
-    <text class="terminal-text" x="15" y="371">  (shift+tab to cycle)               or npm i -g @anthropic-ai/claude-code</text>
-    <text class="terminal-text" x="15" y="389">                                                 ctrl-g to edit prompt in code</text>
+    <text class="terminal-text success" x="15" y="281">&gt; Generate documentation for the app. Test status: success, coverage: 87%.</text>
+    <text class="terminal-text" x="15" y="299"></text>
+    <text class="terminal-text" x="15" y="317">────────────────────────────────────────────────────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="335">  ⏵⏵ bypass permissions on           ✗ Auto-update failed · Try claude doctor</text>
+    <text class="terminal-text" x="15" y="353">  (shift+tab to cycle)               or npm i -g @anthropic-ai/claude-code</text>
+    <text class="terminal-text" x="15" y="371">                                                 ctrl-g to edit prompt in code</text>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="606.0" height="1037" viewBox="0 0 606.0 1037">
+<svg xmlns="http://www.w3.org/2000/svg" width="606.0" height="1109" viewBox="0 0 606.0 1109">
     <!-- Styles -->
     <style>
         .terminal-bg { fill: #282c34; }
@@ -16,7 +16,7 @@
     </style>
 
     <!-- Background -->
-    <rect class="terminal-bg" width="606.0" height="1037" rx="6"/>
+    <rect class="terminal-bg" width="606.0" height="1109" rx="6"/>
 
     <!-- Header -->
     <rect class="terminal-header" width="606.0" height="35" rx="6"/>
@@ -28,7 +28,7 @@
     <circle class="terminal-button" cx="60" cy="18" r="6" fill="#27c93f"/>
 
     <!-- Title -->
-    <text class="terminal-text terminal-title" x="80" y="22">Stage 2 - Dev Agent (Claude CLI + LangGraph)</text>
+    <text class="terminal-text terminal-title" x="80" y="22">Stage 2 - Dev Agent (LangGraph)</text>
 
     <!-- Text content -->
     <text class="terminal-text" x="15" y="65">cd /Users/rohsunghyun/aisample/android-orchestration-demo-v2/stage2</text>
@@ -37,52 +37,56 @@
     <text class="terminal-text" x="15" y="119">hestration-demo-v2/stage2</text>
     <text class="terminal-text" x="15" y="137">claude --dangerously-skip-permissions</text>
     <text class="terminal-text" x="15" y="155">rohsunghyun@Rohui-MacBookPro stage2 % claude --dangerously-skip-permissions</text>
-    <text class="terminal-text" x="15" y="173">@dev_CLAUDE.md</text>
-    <text class="terminal-text" x="15" y="191"></text>
-    <text class="terminal-text" x="15" y="209"> ▐▛███▜▌   Claude Code v2.0.13</text>
-    <text class="terminal-text" x="15" y="227">▝▜█████▛▘  Sonnet 4.5 · Claude Max</text>
-    <text class="terminal-text" x="15" y="245">  ▘▘ ▝▝    /Users/rohsunghyun/aisample/android-orchestration-demo-v2/stage2</text>
+    <text class="terminal-text" x="15" y="173"></text>
+    <text class="terminal-text" x="15" y="191"> ▐▛███▜▌   Claude Code v2.0.13</text>
+    <text class="terminal-text" x="15" y="209">▝▜█████▛▘  Sonnet 4.5 · Claude Max</text>
+    <text class="terminal-text" x="15" y="227">  ▘▘ ▝▝    /Users/rohsunghyun/aisample/android-orchestration-demo-v2/stage2</text>
+    <text class="terminal-text" x="15" y="245"></text>
     <text class="terminal-text" x="15" y="263"></text>
     <text class="terminal-text" x="15" y="281">&gt; @dev_CLAUDE.md</text>
     <text class="terminal-text" x="15" y="299">  ⎿  Read dev_CLAUDE.md (33 lines)</text>
     <text class="terminal-text" x="15" y="317"></text>
-    <text class="terminal-text info" x="15" y="335">⏺ I can see the dev_CLAUDE.md file you&apos;ve opened. This document provides</text>
-    <text class="terminal-text" x="15" y="353">  instructions for a Development Agent that&apos;s controlled by a LangGraph</text>
-    <text class="terminal-text" x="15" y="371">  workflow for Android app development.</text>
+    <text class="terminal-text info" x="15" y="335">⏺ I can see the dev_CLAUDE.md file contains instructions for a Development</text>
+    <text class="terminal-text" x="15" y="353">  Agent that&apos;s part of a LangGraph workflow for Android app development.</text>
+    <text class="terminal-text" x="15" y="371">  This file defines:</text>
     <text class="terminal-text" x="15" y="389"></text>
-    <text class="terminal-text" x="15" y="407">  Here&apos;s a summary of what this file contains:</text>
+    <text class="terminal-text" x="15" y="407">  Key Points:</text>
     <text class="terminal-text" x="15" y="425"></text>
-    <text class="terminal-text" x="15" y="443">  Purpose: Instructions for a Development Agent that generates Android</text>
-    <text class="terminal-text" x="15" y="461">  Kotlin code as part of a LangGraph workflow orchestration system.</text>
+    <text class="terminal-text" x="15" y="443">  Role: Development Agent controlled by LangGraph workflow for Android app</text>
+    <text class="terminal-text" x="15" y="461">  development</text>
     <text class="terminal-text" x="15" y="479"></text>
-    <text class="terminal-text" x="15" y="497">  Key Workflow:</text>
-    <text class="terminal-text" x="15" y="515">  1. Receives JSON commands like {&quot;command&quot;: &quot;DEVELOP&quot;, &quot;spec_path&quot;:</text>
-    <text class="terminal-text" x="15" y="533">  &quot;../weather-app.spec.yaml&quot;}</text>
-    <text class="terminal-text" x="15" y="551">  2. Generates Android Kotlin code files</text>
-    <text class="terminal-text success" x="15" y="569">  3. Ensures code builds successfully</text>
-    <text class="terminal-text success" x="15" y="587">  4. Responds with a specific JSON format prefixed with RESPONSE:</text>
-    <text class="terminal-text" x="15" y="605"></text>
-    <text class="terminal-text" x="15" y="623">  Response Format Example:</text>
-    <text class="terminal-text success" x="15" y="641">  RESPONSE:{&quot;status&quot;: &quot;success&quot;, &quot;files&quot;: [&quot;MainActivity.kt&quot;,</text>
-    <text class="terminal-text success" x="15" y="659">  &quot;WeatherScreen.kt&quot;, &quot;WeatherRepository.kt&quot;], &quot;build_status&quot;: &quot;success&quot;}</text>
-    <text class="terminal-text" x="15" y="677"></text>
-    <text class="terminal-text" x="15" y="695">  Important Constraints:</text>
-    <text class="terminal-text success" x="15" y="713">  - Must always use RESPONSE: prefix with valid JSON</text>
-    <text class="terminal-text" x="15" y="731">  - JSON must be on a single line</text>
-    <text class="terminal-text" x="15" y="749">  - Agent should wait for next command after responding</text>
-    <text class="terminal-text" x="15" y="767">  - Communication happens via tmux (LangGraph sends commands via tmux</text>
-    <text class="terminal-text" x="15" y="785">  sendkeys and captures responses via capture-pane)</text>
-    <text class="terminal-text" x="15" y="803"></text>
-    <text class="terminal-text" x="15" y="821">  This appears to be part of a multi-agent orchestration system where this</text>
-    <text class="terminal-text" x="15" y="839">  specific agent handles Android development tasks. Is there something</text>
-    <text class="terminal-text" x="15" y="857">  specific you&apos;d like to do with this file or would you like me to help</text>
-    <text class="terminal-text" x="15" y="875">  implement this agent workflow?</text>
-    <text class="terminal-text" x="15" y="893"></text>
-    <text class="terminal-text" x="15" y="911">────────────────────────────────────────────────────────────────────────────────</text>
-    <text class="terminal-text" x="15" y="929">&gt; {&quot;command&quot;: &quot;DEVELOP&quot;, &quot;spec_path&quot;: &quot;../weather-app.spec.yaml&quot;}</text>
-    <text class="terminal-text" x="15" y="947"></text>
-    <text class="terminal-text" x="15" y="965">────────────────────────────────────────────────────────────────────────────────</text>
-    <text class="terminal-text" x="15" y="983">  ⏵⏵ bypass permissions on           ✗ Auto-update failed · Try claude doctor</text>
-    <text class="terminal-text" x="15" y="1001">  (shift+tab to cycle)               or npm i -g @anthropic-ai/claude-code</text>
-    <text class="terminal-text" x="15" y="1019">                                                 ctrl-g to edit prompt in code</text>
+    <text class="terminal-text" x="15" y="497">  Workflow:</text>
+    <text class="terminal-text" x="15" y="515">  1. Receive natural language commands via tmux</text>
+    <text class="terminal-text" x="15" y="533">  2. Read spec files and generate Android Kotlin code</text>
+    <text class="terminal-text success" x="15" y="551">  3. Ensure code builds successfully</text>
+    <text class="terminal-text" x="15" y="569">  4. Respond in a specific JSON format</text>
+    <text class="terminal-text" x="15" y="587"></text>
+    <text class="terminal-text" x="15" y="605">  Response Format:</text>
+    <text class="terminal-text success" x="15" y="623">  RESPONSE:{&quot;status&quot;: &quot;success&quot;, &quot;files&quot;: [...], &quot;build_status&quot;: &quot;success&quot;}</text>
+    <text class="terminal-text" x="15" y="641"></text>
+    <text class="terminal-text" x="15" y="659">  Communication:</text>
+    <text class="terminal-text" x="15" y="677">  - Commands come from LangGraph via tmux sendkeys</text>
+    <text class="terminal-text" x="15" y="695">  - Responses are captured via tmux capture-pane</text>
+    <text class="terminal-text success" x="15" y="713">  - Must always use RESPONSE: prefix with valid single-line JSON</text>
+    <text class="terminal-text" x="15" y="731"></text>
+    <text class="terminal-text" x="15" y="749">  Important Rules:</text>
+    <text class="terminal-text" x="15" y="767">  - Keep JSON responses on a single line</text>
+    <text class="terminal-text" x="15" y="785">  - Wait for next command after responding</text>
+    <text class="terminal-text" x="15" y="803">  - Don&apos;t exit or terminate</text>
+    <text class="terminal-text" x="15" y="821"></text>
+    <text class="terminal-text" x="15" y="839">  This appears to be part of a multi-agent orchestration system (likely with</text>
+    <text class="terminal-text" x="15" y="857">   an iOS agent as well, based on the context reminder about &quot;iosAgent&quot;).</text>
+    <text class="terminal-text" x="15" y="875">  The agent is designed to work within an automated workflow where LangGraph</text>
+    <text class="terminal-text" x="15" y="893">   coordinates the development process.</text>
+    <text class="terminal-text" x="15" y="911"></text>
+    <text class="terminal-text" x="15" y="929">  Is there something specific you&apos;d like to do with this file or the</text>
+    <text class="terminal-text" x="15" y="947">  orchestration system?</text>
+    <text class="terminal-text" x="15" y="965"></text>
+    <text class="terminal-text" x="15" y="983">────────────────────────────────────────────────────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="1001">&gt; Create an Android app based on the spec file at ../weather-app.spec.yaml</text>
+    <text class="terminal-text" x="15" y="1019"></text>
+    <text class="terminal-text" x="15" y="1037">────────────────────────────────────────────────────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="1055">  ⏵⏵ bypass permissions on           ✗ Auto-update failed · Try claude doctor</text>
+    <text class="terminal-text" x="15" y="1073">  (shift+tab to cycle)               or npm i -g @anthropic-ai/claude-code</text>
+    <text class="terminal-text" x="15" y="1091">                                                 ctrl-g to edit prompt in code</text>
 </svg>
