@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="606.0" height="4241" viewBox="0 0 606.0 4241">
+    <!-- Styles -->
+    <style>
+        .terminal-bg { fill: #282c34; }
+        .terminal-header { fill: #21252b; }
+        .terminal-button { stroke: none; }
+        .terminal-text {
+            fill: #abb2bf;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
+            font-size: 13px;
+            white-space: pre;
+        }
+        .terminal-title { fill: #ffffff; font-size: 13px; }
+        .success { fill: #98c379; }
+        .info { fill: #61afef; }
+    </style>
+
+    <!-- Background -->
+    <rect class="terminal-bg" width="606.0" height="4241" rx="6"/>
+
+    <!-- Header -->
+    <rect class="terminal-header" width="606.0" height="35" rx="6"/>
+    <rect class="terminal-header" y="29" width="606.0" height="6"/>
+
+    <!-- Terminal buttons -->
+    <circle class="terminal-button" cx="20" cy="18" r="6" fill="#ff5f56"/>
+    <circle class="terminal-button" cx="40" cy="18" r="6" fill="#ffbd2e"/>
+    <circle class="terminal-button" cx="60" cy="18" r="6" fill="#27c93f"/>
+
+    <!-- Title -->
+    <text class="terminal-text terminal-title" x="80" y="22">JIRA to PM Agent Integration</text>
+
+    <!-- Text content -->
+    <text class="terminal-text" x="15" y="65">╔══════════════════════════════════════════════════════════════════════════════╗</text>
+    <text class="terminal-text" x="15" y="83">║                     JIRA to PM Agent Integration Workflow                   ║</text>
+    <text class="terminal-text" x="15" y="101">╚══════════════════════════════════════════════════════════════════════════════╝</text>
+    <text class="terminal-text" x="15" y="119"></text>
+    <text class="terminal-text" x="15" y="137">┌─────────────────────────────────────────────────────────────────────────────┐</text>
+    <text class="terminal-text" x="15" y="155">│  Step 1: JIRA Ticket in Browser                                            │</text>
+    <text class="terminal-text" x="15" y="173">│  ┌───────────────────────────────────────────────────────────────────────┐ │</text>
+    <text class="terminal-text" x="15" y="191">│  │  JIRA Browser Tab                                                     │ │</text>
+    <text class="terminal-text" x="15" y="209">│  │  ═══════════════════════════════════════════════════════════════════  │ │</text>
+    <text class="terminal-text" x="15" y="227">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="245">│  │  Ticket ID: ANDROID-456                                               │ │</text>
+    <text class="terminal-text" x="15" y="263">│  │  Title: User Authentication Feature                                   │ │</text>
+    <text class="terminal-text" x="15" y="281">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="299">│  │  Description:                                                         │ │</text>
+    <text class="terminal-text" x="15" y="317">│  │  • Implement secure user authentication                               │ │</text>
+    <text class="terminal-text" x="15" y="335">│  │  • Email/password login                                               │ │</text>
+    <text class="terminal-text" x="15" y="353">│  │  • OAuth2 social login (Google, Apple)                                │ │</text>
+    <text class="terminal-text" x="15" y="371">│  │  • Biometric authentication                                           │ │</text>
+    <text class="terminal-text" x="15" y="389">│  │  • Token management                                                   │ │</text>
+    <text class="terminal-text" x="15" y="407">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="425">│  │  Acceptance Criteria:                                                 │ │</text>
+    <text class="terminal-text" x="15" y="443">│  │  ☐ Users can register with email                                     │ │</text>
+    <text class="terminal-text" x="15" y="461">│  │  ☐ Users can login with Google/Apple                                 │ │</text>
+    <text class="terminal-text" x="15" y="479">│  │  ☐ Biometric auth works on supported devices                         │ │</text>
+    <text class="terminal-text" x="15" y="497">│  │  ☐ 85%+ test coverage                                                │ │</text>
+    <text class="terminal-text" x="15" y="515">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="533">│  │  [Chrome Plugin Icon] 👆 Click here to automate!                      │ │</text>
+    <text class="terminal-text" x="15" y="551">│  └───────────────────────────────────────────────────────────────────────┘ │</text>
+    <text class="terminal-text" x="15" y="569">└─────────────────────────────────────────────────────────────────────────────┘</text>
+    <text class="terminal-text" x="15" y="587">                                    │</text>
+    <text class="terminal-text" x="15" y="605">                                    ▼</text>
+    <text class="terminal-text" x="15" y="623">┌─────────────────────────────────────────────────────────────────────────────┐</text>
+    <text class="terminal-text" x="15" y="641">│  Step 2: Chrome Plugin Extracts &amp; Analyzes                                 │</text>
+    <text class="terminal-text" x="15" y="659">│  ┌───────────────────────────────────────────────────────────────────────┐ │</text>
+    <text class="terminal-text" x="15" y="677">│  │  Chrome Plugin Popup                                                  │ │</text>
+    <text class="terminal-text" x="15" y="695">│  │  ═══════════════════════════════════════════════════════════════════  │ │</text>
+    <text class="terminal-text" x="15" y="713">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="731">│  │  ✓ Ticket extracted: ANDROID-456                                     │ │</text>
+    <text class="terminal-text" x="15" y="749">│  │  ✓ Requirements parsed                                               │ │</text>
+    <text class="terminal-text" x="15" y="767">│  │  ✓ Acceptance criteria identified                                    │ │</text>
+    <text class="terminal-text" x="15" y="785">│  │  ✓ Command generated                                                 │ │</text>
+    <text class="terminal-text" x="15" y="803">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="821">│  │  Generated Command:                                                   │ │</text>
+    <text class="terminal-text" x="15" y="839">│  │  &quot;Create Android user authentication with email login, OAuth2        │ │</text>
+    <text class="terminal-text" x="15" y="857">│  │  (Google/Apple), biometric auth, secure token management.            │ │</text>
+    <text class="terminal-text" x="15" y="875">│  │  Min SDK 24, Jetpack Compose, MVVM architecture.                     │ │</text>
+    <text class="terminal-text" x="15" y="893">│  │  Acceptance: 85%+ test coverage, all auth methods working.&quot;          │ │</text>
+    <text class="terminal-text" x="15" y="911">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="929">│  │  Target Session: pm-agent                                            │ │</text>
+    <text class="terminal-text" x="15" y="947">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="965">│  │  [Send to PM Agent]  [Cancel]                                        │ │</text>
+    <text class="terminal-text" x="15" y="983">│  └───────────────────────────────────────────────────────────────────────┘ │</text>
+    <text class="terminal-text" x="15" y="1001">└─────────────────────────────────────────────────────────────────────────────┘</text>
+    <text class="terminal-text" x="15" y="1019">                                    │</text>
+    <text class="terminal-text" x="15" y="1037">                                    ▼</text>
+    <text class="terminal-text" x="15" y="1055">┌─────────────────────────────────────────────────────────────────────────────┐</text>
+    <text class="terminal-text" x="15" y="1073">│  Step 3: Native Messaging Host (Bridge)                                    │</text>
+    <text class="terminal-text" x="15" y="1091">│  ┌───────────────────────────────────────────────────────────────────────┐ │</text>
+    <text class="terminal-text" x="15" y="1109">│  │  pm_agent_connector.py                                                │ │</text>
+    <text class="terminal-text" x="15" y="1127">│  │  ═══════════════════════════════════════════════════════════════════  │ │</text>
+    <text class="terminal-text" x="15" y="1145">│  │                                                                        │ │</text>
+    <text class="terminal-text info" x="15" y="1163">│  │  📥 Received from Chrome extension                                    │ │</text>
+    <text class="terminal-text" x="15" y="1181">│  │  {                                                                    │ │</text>
+    <text class="terminal-text" x="15" y="1199">│  │    &quot;command&quot;: &quot;Create Android user authentication...&quot;,               │ │</text>
+    <text class="terminal-text" x="15" y="1217">│  │    &quot;session&quot;: &quot;pm-agent&quot;,                                            │ │</text>
+    <text class="terminal-text" x="15" y="1235">│  │    &quot;metadata&quot;: {                                                     │ │</text>
+    <text class="terminal-text" x="15" y="1253">│  │      &quot;jira_id&quot;: &quot;ANDROID-456&quot;,                                       │ │</text>
+    <text class="terminal-text" x="15" y="1271">│  │      &quot;priority&quot;: &quot;High&quot;                                              │ │</text>
+    <text class="terminal-text" x="15" y="1289">│  │    }                                                                  │ │</text>
+    <text class="terminal-text" x="15" y="1307">│  │  }                                                                    │ │</text>
+    <text class="terminal-text" x="15" y="1325">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="1343">│  │  🔄 Sending to tmux session &quot;pm-agent&quot;...                            │ │</text>
+    <text class="terminal-text" x="15" y="1361">│  │  $ tmux send-keys -t pm-agent &quot;Create Android...&quot; Enter              │ │</text>
+    <text class="terminal-text" x="15" y="1379">│  │                                                                        │ │</text>
+    <text class="terminal-text success" x="15" y="1397">│  │  ✓ Command sent successfully                                         │ │</text>
+    <text class="terminal-text" x="15" y="1415">│  └───────────────────────────────────────────────────────────────────────┘ │</text>
+    <text class="terminal-text" x="15" y="1433">└─────────────────────────────────────────────────────────────────────────────┘</text>
+    <text class="terminal-text" x="15" y="1451">                                    │</text>
+    <text class="terminal-text" x="15" y="1469">                                    ▼</text>
+    <text class="terminal-text" x="15" y="1487">┌─────────────────────────────────────────────────────────────────────────────┐</text>
+    <text class="terminal-text" x="15" y="1505">│  Step 4: PM Agent Receives &amp; Orchestrates                                  │</text>
+    <text class="terminal-text" x="15" y="1523">│  ┌───────────────────────────────────────────────────────────────────────┐ │</text>
+    <text class="terminal-text" x="15" y="1541">│  │  Terminal (tmux: pm-agent)                                            │ │</text>
+    <text class="terminal-text" x="15" y="1559">│  │  ═══════════════════════════════════════════════════════════════════  │ │</text>
+    <text class="terminal-text" x="15" y="1577">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="1595">│  │  PM Agent: Received command from JIRA-456                            │ │</text>
+    <text class="terminal-text" x="15" y="1613">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="1631">│  │  📋 Creating multi-agent development pipeline...                     │ │</text>
+    <text class="terminal-text" x="15" y="1649">│  │  ├─ Creating project structure                      ✓                │ │</text>
+    <text class="terminal-text" x="15" y="1667">│  │  ├─ Generating agent configurations                 ✓                │ │</text>
+    <text class="terminal-text" x="15" y="1685">│  │  ├─ Setting up tmux sessions                        ✓                │ │</text>
+    <text class="terminal-text" x="15" y="1703">│  │  │  ├─ auth-dev session                             ✓                │ │</text>
+    <text class="terminal-text" x="15" y="1721">│  │  │  ├─ auth-qa session                              ✓                │ │</text>
+    <text class="terminal-text" x="15" y="1739">│  │  │  ├─ auth-doc session                             ✓                │ │</text>
+    <text class="terminal-text" x="15" y="1757">│  │  │  └─ auth-deploy session                          ✓                │ │</text>
+    <text class="terminal-text" x="15" y="1775">│  │  ├─ Launching Claude CLI agents                     ✓                │ │</text>
+    <text class="terminal-text" x="15" y="1793">│  │  └─ Loading agent instructions                      ✓                │ │</text>
+    <text class="terminal-text" x="15" y="1811">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="1829">│  │  🚀 Executing LangGraph workflow...                                  │ │</text>
+    <text class="terminal-text" x="15" y="1847">│  │  ├─ Dev Agent: Generating authentication code       ⏳               │ │</text>
+    <text class="terminal-text" x="15" y="1865">│  │  └─ Waiting for completion...                                        │ │</text>
+    <text class="terminal-text" x="15" y="1883">│  └───────────────────────────────────────────────────────────────────────┘ │</text>
+    <text class="terminal-text" x="15" y="1901">└─────────────────────────────────────────────────────────────────────────────┘</text>
+    <text class="terminal-text" x="15" y="1919">                                    │</text>
+    <text class="terminal-text" x="15" y="1937">                                    ▼</text>
+    <text class="terminal-text" x="15" y="1955">┌─────────────────────────────────────────────────────────────────────────────┐</text>
+    <text class="terminal-text" x="15" y="1973">│  Step 5: Specialized Agents Execute Pipeline                               │</text>
+    <text class="terminal-text" x="15" y="1991">│  ┌───────────────────────────────────────────────────────────────────────┐ │</text>
+    <text class="terminal-text" x="15" y="2009">│  │  Multi-Agent Execution                                                │ │</text>
+    <text class="terminal-text" x="15" y="2027">│  │  ═══════════════════════════════════════════════════════════════════  │ │</text>
+    <text class="terminal-text" x="15" y="2045">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="2063">│  │  [Dev Agent - auth-dev]                                               │ │</text>
+    <text class="terminal-text" x="15" y="2081">│  │  ✓ Created LoginScreen.kt                                            │ │</text>
+    <text class="terminal-text" x="15" y="2099">│  │  ✓ Created RegisterScreen.kt                                         │ │</text>
+    <text class="terminal-text" x="15" y="2117">│  │  ✓ Created AuthViewModel.kt                                          │ │</text>
+    <text class="terminal-text" x="15" y="2135">│  │  ✓ Created AuthRepository.kt                                         │ │</text>
+    <text class="terminal-text" x="15" y="2153">│  │  ✓ Created BiometricHelper.kt                                        │ │</text>
+    <text class="terminal-text" x="15" y="2171">│  │  ✓ Created TokenManager.kt                                           │ │</text>
+    <text class="terminal-text" x="15" y="2189">│  │  ✓ Build: SUCCESS                                                    │ │</text>
+    <text class="terminal-text" x="15" y="2207">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="2225">│  │  [QA Agent - auth-qa]                                                 │ │</text>
+    <text class="terminal-text" x="15" y="2243">│  │  ✓ Running unit tests...                                             │ │</text>
+    <text class="terminal-text" x="15" y="2261">│  │  ✓ 42 tests passed, 0 failed                                         │ │</text>
+    <text class="terminal-text" x="15" y="2279">│  │  ✓ Code coverage: 87%                                                │ │</text>
+    <text class="terminal-text" x="15" y="2297">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="2315">│  │  [Doc Agent - auth-doc]                                               │ │</text>
+    <text class="terminal-text" x="15" y="2333">│  │  ✓ Generated API.md                                                  │ │</text>
+    <text class="terminal-text" x="15" y="2351">│  │  ✓ Generated SETUP.md                                                │ │</text>
+    <text class="terminal-text" x="15" y="2369">│  │  ✓ Generated SECURITY.md                                             │ │</text>
+    <text class="terminal-text" x="15" y="2387">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="2405">│  │  [Deploy Agent - auth-deploy]                                         │ │</text>
+    <text class="terminal-text" x="15" y="2423">│  │  ✓ Deployed to staging environment                                   │ │</text>
+    <text class="terminal-text" x="15" y="2441">│  │  ✓ Health check: PASSED                                              │ │</text>
+    <text class="terminal-text" x="15" y="2459">│  └───────────────────────────────────────────────────────────────────────┘ │</text>
+    <text class="terminal-text" x="15" y="2477">└─────────────────────────────────────────────────────────────────────────────┘</text>
+    <text class="terminal-text" x="15" y="2495">                                    │</text>
+    <text class="terminal-text" x="15" y="2513">                                    ▼</text>
+    <text class="terminal-text" x="15" y="2531">┌─────────────────────────────────────────────────────────────────────────────┐</text>
+    <text class="terminal-text" x="15" y="2549">│  Step 6: PM Agent Synthesizes Results                                      │</text>
+    <text class="terminal-text" x="15" y="2567">│  ┌───────────────────────────────────────────────────────────────────────┐ │</text>
+    <text class="terminal-text" x="15" y="2585">│  │  Terminal (tmux: pm-agent)                                            │ │</text>
+    <text class="terminal-text" x="15" y="2603">│  │  ═══════════════════════════════════════════════════════════════════  │ │</text>
+    <text class="terminal-text" x="15" y="2621">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="2639">│  │  PM Agent: Pipeline complete!                                         │ │</text>
+    <text class="terminal-text" x="15" y="2657">│  │                                                                        │ │</text>
+    <text class="terminal-text success" x="15" y="2675">│  │  RESPONSE:{                                                           │ │</text>
+    <text class="terminal-text success" x="15" y="2693">│  │    &quot;status&quot;: &quot;success&quot;,                                               │ │</text>
+    <text class="terminal-text" x="15" y="2711">│  │    &quot;jira_ticket&quot;: &quot;ANDROID-456&quot;,                                      │ │</text>
+    <text class="terminal-text" x="15" y="2729">│  │    &quot;pipeline_status&quot;: &quot;completed&quot;,                                    │ │</text>
+    <text class="terminal-text" x="15" y="2747">│  │    &quot;summary&quot;: {                                                       │ │</text>
+    <text class="terminal-text" x="15" y="2765">│  │      &quot;files_created&quot;: 15,                                             │ │</text>
+    <text class="terminal-text" x="15" y="2783">│  │      &quot;components&quot;: [&quot;LoginScreen&quot;, &quot;RegisterScreen&quot;,                  │ │</text>
+    <text class="terminal-text" x="15" y="2801">│  │                     &quot;AuthViewModel&quot;, &quot;AuthRepository&quot;,...],           │ │</text>
+    <text class="terminal-text success" x="15" y="2819">│  │      &quot;build_status&quot;: &quot;success&quot;,                                       │ │</text>
+    <text class="terminal-text" x="15" y="2837">│  │      &quot;tests_passed&quot;: 42,                                              │ │</text>
+    <text class="terminal-text" x="15" y="2855">│  │      &quot;tests_failed&quot;: 0,                                               │ │</text>
+    <text class="terminal-text" x="15" y="2873">│  │      &quot;coverage&quot;: 87,                                                  │ │</text>
+    <text class="terminal-text" x="15" y="2891">│  │      &quot;documentation&quot;: [&quot;API.md&quot;, &quot;SETUP.md&quot;, &quot;SECURITY.md&quot;],          │ │</text>
+    <text class="terminal-text" x="15" y="2909">│  │      &quot;deployment&quot;: &quot;staging&quot;                                          │ │</text>
+    <text class="terminal-text" x="15" y="2927">│  │    }                                                                   │ │</text>
+    <text class="terminal-text" x="15" y="2945">│  │  }                                                                     │ │</text>
+    <text class="terminal-text" x="15" y="2963">│  └───────────────────────────────────────────────────────────────────────┘ │</text>
+    <text class="terminal-text" x="15" y="2981">└─────────────────────────────────────────────────────────────────────────────┘</text>
+    <text class="terminal-text" x="15" y="2999">                                    │</text>
+    <text class="terminal-text" x="15" y="3017">                                    ▼</text>
+    <text class="terminal-text" x="15" y="3035">┌─────────────────────────────────────────────────────────────────────────────┐</text>
+    <text class="terminal-text" x="15" y="3053">│  Step 7: Chrome Plugin Updates JIRA                                        │</text>
+    <text class="terminal-text" x="15" y="3071">│  ┌───────────────────────────────────────────────────────────────────────┐ │</text>
+    <text class="terminal-text" x="15" y="3089">│  │  JIRA Ticket - Updated                                                │ │</text>
+    <text class="terminal-text" x="15" y="3107">│  │  ═══════════════════════════════════════════════════════════════════  │ │</text>
+    <text class="terminal-text" x="15" y="3125">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="3143">│  │  Ticket ID: ANDROID-456                                               │ │</text>
+    <text class="terminal-text" x="15" y="3161">│  │  Title: User Authentication Feature                                   │ │</text>
+    <text class="terminal-text" x="15" y="3179">│  │  Status: In Review ← Updated automatically                            │ │</text>
+    <text class="terminal-text" x="15" y="3197">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="3215">│  │  Comments:                                                            │ │</text>
+    <text class="terminal-text" x="15" y="3233">│  │  ┌─────────────────────────────────────────────────────────────────┐ │ │</text>
+    <text class="terminal-text" x="15" y="3251">│  │  │ 🤖 PM Agent - 5 minutes ago                                     │ │ │</text>
+    <text class="terminal-text" x="15" y="3269">│  │  │                                                                  │ │ │</text>
+    <text class="terminal-text success" x="15" y="3287">│  │  │ ✅ PM Agent Automation Complete                                 │ │ │</text>
+    <text class="terminal-text" x="15" y="3305">│  │  │                                                                  │ │ │</text>
+    <text class="terminal-text success" x="15" y="3323">│  │  │ Status: success                                                 │ │ │</text>
+    <text class="terminal-text" x="15" y="3341">│  │  │ Files Created: 15                                               │ │ │</text>
+    <text class="terminal-text" x="15" y="3359">│  │  │ Tests: 42/42 passed                                             │ │ │</text>
+    <text class="terminal-text" x="15" y="3377">│  │  │ Coverage: 87%                                                   │ │ │</text>
+    <text class="terminal-text" x="15" y="3395">│  │  │ Deployed to: staging                                            │ │ │</text>
+    <text class="terminal-text" x="15" y="3413">│  │  │                                                                  │ │ │</text>
+    <text class="terminal-text" x="15" y="3431">│  │  │ Components:                                                     │ │ │</text>
+    <text class="terminal-text" x="15" y="3449">│  │  │ • LoginScreen.kt                                                │ │ │</text>
+    <text class="terminal-text" x="15" y="3467">│  │  │ • RegisterScreen.kt                                             │ │ │</text>
+    <text class="terminal-text" x="15" y="3485">│  │  │ • AuthViewModel.kt                                              │ │ │</text>
+    <text class="terminal-text" x="15" y="3503">│  │  │ • AuthRepository.kt                                             │ │ │</text>
+    <text class="terminal-text" x="15" y="3521">│  │  │ • BiometricHelper.kt                                            │ │ │</text>
+    <text class="terminal-text" x="15" y="3539">│  │  │ • TokenManager.kt                                               │ │ │</text>
+    <text class="terminal-text" x="15" y="3557">│  │  │                                                                  │ │ │</text>
+    <text class="terminal-text" x="15" y="3575">│  │  │ Documentation:                                                  │ │ │</text>
+    <text class="terminal-text" x="15" y="3593">│  │  │ • API.md                                                        │ │ │</text>
+    <text class="terminal-text" x="15" y="3611">│  │  │ • SETUP.md                                                      │ │ │</text>
+    <text class="terminal-text" x="15" y="3629">│  │  │ • SECURITY.md                                                   │ │ │</text>
+    <text class="terminal-text" x="15" y="3647">│  │  │                                                                  │ │ │</text>
+    <text class="terminal-text" x="15" y="3665">│  │  │ View in staging: https://staging.example.com/auth               │ │ │</text>
+    <text class="terminal-text" x="15" y="3683">│  │  └─────────────────────────────────────────────────────────────────┘ │ │</text>
+    <text class="terminal-text" x="15" y="3701">│  │                                                                        │ │</text>
+    <text class="terminal-text" x="15" y="3719">│  │  Acceptance Criteria:                                                 │ │</text>
+    <text class="terminal-text" x="15" y="3737">│  │  ☑ Users can register with email                     DONE            │ │</text>
+    <text class="terminal-text" x="15" y="3755">│  │  ☑ Users can login with Google/Apple                 DONE            │ │</text>
+    <text class="terminal-text" x="15" y="3773">│  │  ☑ Biometric auth works on supported devices         DONE            │ │</text>
+    <text class="terminal-text" x="15" y="3791">│  │  ☑ 85%+ test coverage                                DONE (87%)      │ │</text>
+    <text class="terminal-text" x="15" y="3809">│  └───────────────────────────────────────────────────────────────────────┘ │</text>
+    <text class="terminal-text" x="15" y="3827">└─────────────────────────────────────────────────────────────────────────────┘</text>
+    <text class="terminal-text" x="15" y="3845"></text>
+    <text class="terminal-text" x="15" y="3863">╔══════════════════════════════════════════════════════════════════════════════╗</text>
+    <text class="terminal-text" x="15" y="3881">║                                  SUMMARY                                     ║</text>
+    <text class="terminal-text" x="15" y="3899">╠══════════════════════════════════════════════════════════════════════════════╣</text>
+    <text class="terminal-text" x="15" y="3917">║  Time from JIRA Click to Deployment: ~5 minutes                             ║</text>
+    <text class="terminal-text" x="15" y="3935">║  Manual Steps Required: 1 (clicking plugin icon)                            ║</text>
+    <text class="terminal-text" x="15" y="3953">║  Agents Orchestrated: 4 (Dev, QA, Doc, Deploy)                              ║</text>
+    <text class="terminal-text" x="15" y="3971">║  Files Generated: 15                                                         ║</text>
+    <text class="terminal-text" x="15" y="3989">║  Tests Written &amp; Run: 42                                                     ║</text>
+    <text class="terminal-text" x="15" y="4007">║  Documentation Created: 3 files                                              ║</text>
+    <text class="terminal-text" x="15" y="4025">║  Environment Deployed: Staging                                               ║</text>
+    <text class="terminal-text" x="15" y="4043">║  JIRA Updated: Automatically                                                 ║</text>
+    <text class="terminal-text" x="15" y="4061">╚══════════════════════════════════════════════════════════════════════════════╝</text>
+    <text class="terminal-text" x="15" y="4079"></text>
+    <text class="terminal-text" x="15" y="4097">Key Benefits:</text>
+    <text class="terminal-text" x="15" y="4115">═══════════════</text>
+    <text class="terminal-text" x="15" y="4133">  ⚡ One-Click Automation    - Single click triggers entire pipeline</text>
+    <text class="terminal-text" x="15" y="4151">  🎯 Zero Context Switching  - Stay in JIRA, results come to you</text>
+    <text class="terminal-text" x="15" y="4169">  📊 Full Traceability       - Every commit linked to JIRA ticket</text>
+    <text class="terminal-text" x="15" y="4187">  🔄 Automatic Updates       - Stakeholders stay informed in real-time</text>
+    <text class="terminal-text" x="15" y="4205">  🚀 Instant Deployment      - From requirement to staging in minutes</text>
+    <text class="terminal-text success" x="15" y="4223">  ✅ Complete Implementation - Code, tests, docs, deployment - all done</text>
+</svg>
