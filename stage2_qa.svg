@@ -1,66 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="318.0" height="605" viewBox="0 0 318.0 605">
-    <!-- 스타일 정의 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="606.0" height="1379" viewBox="0 0 606.0 1379">
+    <!-- Styles -->
     <style>
         .terminal-bg { fill: #282c34; }
         .terminal-header { fill: #21252b; }
         .terminal-button { stroke: none; }
-        .terminal-text { 
-            fill: #abb2bf; 
-            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace; 
-            font-size: 13px; 
+        .terminal-text {
+            fill: #abb2bf;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
+            font-size: 13px;
             white-space: pre;
         }
         .terminal-title { fill: #ffffff; font-size: 13px; }
         .success { fill: #98c379; }
-        .error { fill: #e06c75; }
         .info { fill: #61afef; }
-        .warning { fill: #d19a66; }
     </style>
-    
-    <!-- 배경 -->
-    <rect class="terminal-bg" width="318.0" height="605" rx="6"/>
-    
-    <!-- 헤더 -->
-    <rect class="terminal-header" width="318.0" height="35" rx="6"/>
-    <rect class="terminal-header" y="29" width="318.0" height="6"/>
-    
-    <!-- 터미널 버튼 -->
+
+    <!-- Background -->
+    <rect class="terminal-bg" width="606.0" height="1379" rx="6"/>
+
+    <!-- Header -->
+    <rect class="terminal-header" width="606.0" height="35" rx="6"/>
+    <rect class="terminal-header" y="29" width="606.0" height="6"/>
+
+    <!-- Terminal buttons -->
     <circle class="terminal-button" cx="20" cy="18" r="6" fill="#ff5f56"/>
     <circle class="terminal-button" cx="40" cy="18" r="6" fill="#ffbd2e"/>
     <circle class="terminal-button" cx="60" cy="18" r="6" fill="#27c93f"/>
-    
-    <!-- 제목 -->
-    <text class="terminal-text terminal-title" x="80" y="22">Stage 2 - QA Agent</text>
-    
-    <!-- 텍스트 내용 -->
-    <text class="terminal-text" x="15" y="65">python3 qa_agent.py</text>
-    <text class="terminal-text" x="15" y="83">rohsunghyun@Rohui-MacBookPro stage2 % py</text>
-    <text class="terminal-text" x="15" y="101">thon3 qa_agent.py</text>
-    <text class="terminal-text" x="15" y="119">========================================</text>
-    <text class="terminal-text" x="15" y="137">====================</text>
-    <text class="terminal-text" x="15" y="155">🧪 [QA Agent] 대기 중...</text>
-    <text class="terminal-text" x="15" y="173">========================================</text>
-    <text class="terminal-text" x="15" y="191">====================</text>
-    <text class="terminal-text" x="15" y="209">{&quot;command&quot;: &quot;TEST&quot;, &quot;spec_path&quot;: &quot;../wea</text>
-    <text class="terminal-text" x="15" y="227">ther-app.spec.yaml&quot;, &quot;dev_artifacts&quot;: {&quot;</text>
-    <text class="terminal-text" x="15" y="245">files&quot;: [&quot;MainActivity.kt&quot;, &quot;WeatherScre</text>
-    <text class="terminal-text" x="15" y="263">en.kt&quot;, &quot;WeatherRepository.kt&quot;], &quot;build_</text>
-    <text class="terminal-text success" x="15" y="281">status&quot;: &quot;success&quot;}}</text>
-    <text class="terminal-text" x="15" y="299">🧪 [QA Agent] 테스트 중...</text>
-    <text class="terminal-text" x="15" y="317">   대상 파일: 3개</text>
-    <text class="terminal-text success" x="15" y="335">RESPONSE:{&quot;status&quot;: &quot;success&quot;, &quot;message&quot;</text>
-    <text class="terminal-text" x="15" y="353">: &quot;\ud14c\uc2a4\ud2b8 \uc644\ub8cc, \uce</text>
-    <text class="terminal-text" x="15" y="371">e4\ubc84\ub9ac\uc9c0 93%&quot;, &quot;artifacts&quot;:</text>
-    <text class="terminal-text error" x="15" y="389">{&quot;tests_passed&quot;: 24, &quot;tests_failed&quot;: 0,</text>
-    <text class="terminal-text" x="15" y="407">&quot;coverage&quot;: 93}}</text>
-    <text class="terminal-text" x="15" y="425">{&quot;command&quot;: &quot;TEST&quot;, &quot;spec_path&quot;: &quot;../wea</text>
-    <text class="terminal-text" x="15" y="443">ther-app.spec.yaml&quot;, &quot;dev_artifacts&quot;: {&quot;</text>
-    <text class="terminal-text" x="15" y="461">files&quot;: [&quot;MainActivity.kt&quot;, &quot;WeatherScre</text>
-    <text class="terminal-text" x="15" y="479">en.kt&quot;, &quot;WeatherRepository.kt&quot;], &quot;build_</text>
-    <text class="terminal-text success" x="15" y="497">status&quot;: &quot;success&quot;}}</text>
-    <text class="terminal-text" x="15" y="515">🧪 [QA Agent] 테스트 중...</text>
-    <text class="terminal-text" x="15" y="533">   대상 파일: 3개</text>
-    <text class="terminal-text success" x="15" y="551">RESPONSE:{&quot;status&quot;: &quot;success&quot;, &quot;message&quot;</text>
-    <text class="terminal-text" x="15" y="569">: &quot;\ud14c\uc2a4\ud2b8 \uc644\ub8cc, \uce</text>
-    <text class="terminal-text" x="15" y="587">e4\ubc84\ub9ac\uc9c0 76%&quot;, &quot;artifacts&quot;:</text>
+
+    <!-- Title -->
+    <text class="terminal-text terminal-title" x="80" y="22">Stage 2 - QA Agent (Claude CLI + LangGraph)</text>
+
+    <!-- Text content -->
+    <text class="terminal-text" x="15" y="65">cd /Users/rohsunghyun/aisample/android-orchestration-demo-v2/stage2</text>
+    <text class="terminal-text" x="15" y="83">claude --dangerously-skip-permissions</text>
+    <text class="terminal-text" x="15" y="101">rohsunghyun@Rohui-MacBookPro stage2 % cd /Users/rohsunghyun/aisample/android-orc</text>
+    <text class="terminal-text" x="15" y="119">hestration-demo-v2/stage2</text>
+    <text class="terminal-text" x="15" y="137">claude --dangerously-skip-permissions</text>
+    <text class="terminal-text" x="15" y="155">rohsunghyun@Rohui-MacBookPro stage2 % claude --dangerously-skip-permissions</text>
+    <text class="terminal-text" x="15" y="173"></text>
+    <text class="terminal-text" x="15" y="191"> ▐▛███▜▌   Claude Code v2.0.13</text>
+    <text class="terminal-text" x="15" y="209">▝▜█████▛▘  Sonnet 4.5 · Claude Max</text>
+    <text class="terminal-text" x="15" y="227">  ▘▘ ▝▝    /Users/rohsunghyun/aisample/android-orchestration-demo-v2/stage2</text>
+    <text class="terminal-text" x="15" y="245"></text>
+    <text class="terminal-text" x="15" y="263"></text>
+    <text class="terminal-text" x="15" y="281">&gt; @qa_CLAUDE.md</text>
+    <text class="terminal-text" x="15" y="299">  ⎿  Read qa_CLAUDE.md (34 lines)</text>
+    <text class="terminal-text" x="15" y="317"></text>
+    <text class="terminal-text info" x="15" y="335">⏺ I can see the QA Agent instructions from qa_CLAUDE.md. This document</text>
+    <text class="terminal-text" x="15" y="353">  defines how a QA Agent should behave when controlled by a LangGraph</text>
+    <text class="terminal-text" x="15" y="371">  workflow for testing Android app code.</text>
+    <text class="terminal-text" x="15" y="389"></text>
+    <text class="terminal-text" x="15" y="407">  Here&apos;s a summary of the key points:</text>
+    <text class="terminal-text" x="15" y="425"></text>
+    <text class="terminal-text" x="15" y="443">  Overview</text>
+    <text class="terminal-text" x="15" y="461"></text>
+    <text class="terminal-text" x="15" y="479">  The QA Agent is designed to be controlled by LangGraph workflow to test</text>
+    <text class="terminal-text" x="15" y="497">  Android applications and measure code coverage.</text>
+    <text class="terminal-text" x="15" y="515"></text>
+    <text class="terminal-text" x="15" y="533">  Expected Input Format</text>
+    <text class="terminal-text" x="15" y="551"></text>
+    <text class="terminal-text" x="15" y="569">  The agent receives JSON commands like:</text>
+    <text class="terminal-text" x="15" y="587">  {&quot;command&quot;: &quot;TEST&quot;, &quot;files&quot;: [&quot;MainActivity.kt&quot;, &quot;WeatherScreen.kt&quot;,</text>
+    <text class="terminal-text success" x="15" y="605">  &quot;WeatherRepository.kt&quot;], &quot;build_status&quot;: &quot;success&quot;}</text>
+    <text class="terminal-text" x="15" y="623"></text>
+    <text class="terminal-text" x="15" y="641">  Required Tasks</text>
+    <text class="terminal-text" x="15" y="659"></text>
+    <text class="terminal-text" x="15" y="677">  1. Run tests on the provided files</text>
+    <text class="terminal-text" x="15" y="695">  2. Measure code coverage</text>
+    <text class="terminal-text" x="15" y="713">  3. Report test results</text>
+    <text class="terminal-text" x="15" y="731">  4. Respond in a specific format</text>
+    <text class="terminal-text" x="15" y="749"></text>
+    <text class="terminal-text" x="15" y="767">  Response Format</text>
+    <text class="terminal-text" x="15" y="785"></text>
+    <text class="terminal-text" x="15" y="803">  The agent must respond with:</text>
+    <text class="terminal-text success" x="15" y="821">  RESPONSE:{&quot;status&quot;: &quot;success&quot;, &quot;tests_passed&quot;: 24, &quot;tests_failed&quot;: 0,</text>
+    <text class="terminal-text" x="15" y="839">  &quot;coverage&quot;: 87}</text>
+    <text class="terminal-text" x="15" y="857"></text>
+    <text class="terminal-text" x="15" y="875">  Key Requirements (qa_CLAUDE.md:22-27)</text>
+    <text class="terminal-text" x="15" y="893"></text>
+    <text class="terminal-text success" x="15" y="911">  - Always use RESPONSE: prefix with valid JSON</text>
+    <text class="terminal-text" x="15" y="929">  - Keep JSON on a single line</text>
+    <text class="terminal-text" x="15" y="947">  - Wait for next command after responding</text>
+    <text class="terminal-text" x="15" y="965">  - Do not exit or terminate</text>
+    <text class="terminal-text" x="15" y="983"></text>
+    <text class="terminal-text" x="15" y="1001">  Communication Flow (qa_CLAUDE.md:31-33)</text>
+    <text class="terminal-text" x="15" y="1019"></text>
+    <text class="terminal-text" x="15" y="1037">  - Controlled by LangGraph workflow (not directly by user)</text>
+    <text class="terminal-text" x="15" y="1055">  - Commands sent via tmux sendkeys</text>
+    <text class="terminal-text" x="15" y="1073">  - Responses captured via tmux capture-pane</text>
+    <text class="terminal-text" x="15" y="1091"></text>
+    <text class="terminal-text" x="15" y="1109">  Is there anything specific you&apos;d like me to help you with regarding this</text>
+    <text class="terminal-text" x="15" y="1127">  QA Agent configuration? For example:</text>
+    <text class="terminal-text" x="15" y="1145">  - Implementing the actual test execution logic</text>
+    <text class="terminal-text" x="15" y="1163">  - Setting up the tmux integration</text>
+    <text class="terminal-text" x="15" y="1181">  - Creating the LangGraph workflow that controls this agent</text>
+    <text class="terminal-text" x="15" y="1199">  - Testing the command/response protocol</text>
+    <text class="terminal-text" x="15" y="1217"></text>
+    <text class="terminal-text" x="15" y="1235">────────────────────────────────────────────────────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="1253">&gt; {&quot;command&quot;: &quot;TEST&quot;, &quot;files&quot;: [&quot;MainActivity.kt&quot;, &quot;WeatherScreen.kt&quot;,</text>
+    <text class="terminal-text success" x="15" y="1271">  &quot;WeatherRepository.kt&quot;], &quot;build_status&quot;: &quot;success&quot;}</text>
+    <text class="terminal-text" x="15" y="1289"></text>
+    <text class="terminal-text" x="15" y="1307">────────────────────────────────────────────────────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="1325">  ⏵⏵ bypass permissions on           ✗ Auto-update failed · Try claude doctor</text>
+    <text class="terminal-text" x="15" y="1343">  (shift+tab to cycle)               or npm i -g @anthropic-ai/claude-code</text>
+    <text class="terminal-text" x="15" y="1361">                                                 ctrl-g to edit prompt in code</text>
 </svg>
