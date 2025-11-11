@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="318.0" height="1145" viewBox="0 0 318.0 1145">
+    <!-- 스타일 정의 -->
+    <style>
+        .terminal-bg { fill: #282c34; }
+        .terminal-header { fill: #21252b; }
+        .terminal-button { stroke: none; }
+        .terminal-text { 
+            fill: #abb2bf; 
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace; 
+            font-size: 13px; 
+            white-space: pre;
+        }
+        .terminal-title { fill: #ffffff; font-size: 13px; }
+        .success { fill: #98c379; }
+        .error { fill: #e06c75; }
+        .info { fill: #61afef; }
+        .warning { fill: #d19a66; }
+    </style>
+    
+    <!-- 배경 -->
+    <rect class="terminal-bg" width="318.0" height="1145" rx="6"/>
+    
+    <!-- 헤더 -->
+    <rect class="terminal-header" width="318.0" height="35" rx="6"/>
+    <rect class="terminal-header" y="29" width="318.0" height="6"/>
+    
+    <!-- 터미널 버튼 -->
+    <circle class="terminal-button" cx="20" cy="18" r="6" fill="#ff5f56"/>
+    <circle class="terminal-button" cx="40" cy="18" r="6" fill="#ffbd2e"/>
+    <circle class="terminal-button" cx="60" cy="18" r="6" fill="#27c93f"/>
+    
+    <!-- 제목 -->
+    <text class="terminal-text terminal-title" x="80" y="22">Stage 3 - PM Agent (전체 흐름)</text>
+    
+    <!-- 텍스트 내용 -->
+    <text class="terminal-text" x="15" y="65">source ../venv/bin/activate &amp;&amp; python3 p</text>
+    <text class="terminal-text" x="15" y="83">m_agent.py</text>
+    <text class="terminal-text" x="15" y="101">rohsunghyun@Rohui-MacBookPro stage3 % so</text>
+    <text class="terminal-text" x="15" y="119">urce ../venv/bin/activate &amp;&amp; python3 pm_</text>
+    <text class="terminal-text" x="15" y="137">agent.py</text>
+    <text class="terminal-text" x="15" y="155">========================================</text>
+    <text class="terminal-text" x="15" y="173">====================</text>
+    <text class="terminal-text" x="15" y="191">👔 [PM Agent] 시작</text>
+    <text class="terminal-text" x="15" y="209">========================================</text>
+    <text class="terminal-text" x="15" y="227">====================</text>
+    <text class="terminal-text" x="15" y="245">명령: START_PROJECT, CHECK_STATUS, PAUSE</text>
+    <text class="terminal-text" x="15" y="263">, RESUME, EXIT</text>
+    <text class="terminal-text" x="15" y="281"></text>
+    <text class="terminal-text" x="15" y="299">{&quot;command&quot;: &quot;START_PROJECT&quot;, &quot;spec_path&quot;</text>
+    <text class="terminal-text" x="15" y="317">: &quot;../weather-app.spec.yaml&quot;}</text>
+    <text class="terminal-text" x="15" y="335">========================================</text>
+    <text class="terminal-text" x="15" y="353">====================</text>
+    <text class="terminal-text" x="15" y="371">🎬 [PM] 프로젝트 시작</text>
+    <text class="terminal-text" x="15" y="389">📋 Spec: ../weather-app.spec.yaml</text>
+    <text class="terminal-text" x="15" y="407">========================================</text>
+    <text class="terminal-text" x="15" y="425">====================</text>
+    <text class="terminal-text" x="15" y="443"></text>
+    <text class="terminal-text" x="15" y="461">========================================</text>
+    <text class="terminal-text" x="15" y="479">====================</text>
+    <text class="terminal-text" x="15" y="497">🔨 [PM] 개발 단계</text>
+    <text class="terminal-text" x="15" y="515">========================================</text>
+    <text class="terminal-text" x="15" y="533">====================</text>
+    <text class="terminal-text info" x="15" y="551">📤 [PM → development] DEVELOP</text>
+    <text class="terminal-text success" x="15" y="569">📥 [PM ← development] ✅ MainActivity.kt</text>
+    <text class="terminal-text" x="15" y="587">, WeatherScreen.kt 생성</text>
+    <text class="terminal-text" x="15" y="605"></text>
+    <text class="terminal-text" x="15" y="623">========================================</text>
+    <text class="terminal-text" x="15" y="641">====================</text>
+    <text class="terminal-text" x="15" y="659">🧪 [PM] QA 단계</text>
+    <text class="terminal-text" x="15" y="677">========================================</text>
+    <text class="terminal-text" x="15" y="695">====================</text>
+    <text class="terminal-text info" x="15" y="713">📤 [PM → qa] TEST</text>
+    <text class="terminal-text success" x="15" y="731">📥 [PM ← qa] ✅ 테스트 완료, 커버리지 91</text>
+    <text class="terminal-text" x="15" y="749">%</text>
+    <text class="terminal-text" x="15" y="767"></text>
+    <text class="terminal-text" x="15" y="785">========================================</text>
+    <text class="terminal-text" x="15" y="803">====================</text>
+    <text class="terminal-text" x="15" y="821">📝 [PM] 문서 단계</text>
+    <text class="terminal-text" x="15" y="839">========================================</text>
+    <text class="terminal-text" x="15" y="857">====================</text>
+    <text class="terminal-text info" x="15" y="875">📤 [PM → documentation] DOCUMENT</text>
+    <text class="terminal-text success" x="15" y="893">📥 [PM ← documentation] ✅ README.md, AP</text>
+    <text class="terminal-text" x="15" y="911">I_GUIDE.md 생성</text>
+    <text class="terminal-text" x="15" y="929"></text>
+    <text class="terminal-text" x="15" y="947">========================================</text>
+    <text class="terminal-text" x="15" y="965">====================</text>
+    <text class="terminal-text" x="15" y="983">🚀 [PM] 배포 단계</text>
+    <text class="terminal-text" x="15" y="1001">========================================</text>
+    <text class="terminal-text" x="15" y="1019">====================</text>
+    <text class="terminal-text info" x="15" y="1037">📤 [PM → deployment] DEPLOY</text>
+    <text class="terminal-text success" x="15" y="1055">📥 [PM ← deployment] ✅ APK 빌드 완료 (9</text>
+    <text class="terminal-text" x="15" y="1073">.6MB)</text>
+    <text class="terminal-text" x="15" y="1091"></text>
+    <text class="terminal-text" x="15" y="1109">========================================</text>
+    <text class="terminal-text" x="15" y="1127">====================</text>
+</svg>

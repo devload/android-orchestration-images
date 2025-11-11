@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="318.0" height="425" viewBox="0 0 318.0 425">
+    <!-- 스타일 정의 -->
+    <style>
+        .terminal-bg { fill: #282c34; }
+        .terminal-header { fill: #21252b; }
+        .terminal-button { stroke: none; }
+        .terminal-text { 
+            fill: #abb2bf; 
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace; 
+            font-size: 13px; 
+            white-space: pre;
+        }
+        .terminal-title { fill: #ffffff; font-size: 13px; }
+        .success { fill: #98c379; }
+        .error { fill: #e06c75; }
+        .info { fill: #61afef; }
+        .warning { fill: #d19a66; }
+    </style>
+    
+    <!-- 배경 -->
+    <rect class="terminal-bg" width="318.0" height="425" rx="6"/>
+    
+    <!-- 헤더 -->
+    <rect class="terminal-header" width="318.0" height="35" rx="6"/>
+    <rect class="terminal-header" y="29" width="318.0" height="6"/>
+    
+    <!-- 터미널 버튼 -->
+    <circle class="terminal-button" cx="20" cy="18" r="6" fill="#ff5f56"/>
+    <circle class="terminal-button" cx="40" cy="18" r="6" fill="#ffbd2e"/>
+    <circle class="terminal-button" cx="60" cy="18" r="6" fill="#27c93f"/>
+    
+    <!-- 제목 -->
+    <text class="terminal-text terminal-title" x="80" y="22">Stage 1 - 개발 Agent</text>
+    
+    <!-- 텍스트 내용 -->
+    <text class="terminal-text" x="15" y="65">python3 dev_agent.py</text>
+    <text class="terminal-text" x="15" y="83">rohsunghyun@Rohui-MacBookPro stage1 % py</text>
+    <text class="terminal-text" x="15" y="101">thon3 dev_agent.py</text>
+    <text class="terminal-text" x="15" y="119">========================================</text>
+    <text class="terminal-text" x="15" y="137">====================</text>
+    <text class="terminal-text" x="15" y="155">🔨 [개발 Agent] 대기 중...</text>
+    <text class="terminal-text" x="15" y="173">========================================</text>
+    <text class="terminal-text" x="15" y="191">====================</text>
+    <text class="terminal-text" x="15" y="209">{&quot;command&quot;: &quot;START_DEVELOP&quot;, &quot;spec_path&quot;</text>
+    <text class="terminal-text" x="15" y="227">: &quot;../weather-app.spec.yaml&quot;}</text>
+    <text class="terminal-text" x="15" y="245">🔨 [개발 Agent] 앱 개발 시작...</text>
+    <text class="terminal-text" x="15" y="263">   Spec: ../weather-app.spec.yaml</text>
+    <text class="terminal-text success" x="15" y="281">✅ [개발 Agent] MainActivity.kt, Weather</text>
+    <text class="terminal-text" x="15" y="299">Screen.kt 생성 완료</text>
+    <text class="terminal-text" x="15" y="317">   생성된 파일: MainActivity.kt, Weather</text>
+    <text class="terminal-text" x="15" y="335">Screen.kt, WeatherRepository.kt, Weather</text>
+    <text class="terminal-text" x="15" y="353">ViewModel.kt</text>
+    <text class="terminal-text info" x="15" y="371">📤 [개발 Agent → QA Agent] 개발 완료, 테</text>
+    <text class="terminal-text" x="15" y="389">스트 시작 요청</text>
+    <text class="terminal-text" x="15" y="407"></text>
+</svg>
