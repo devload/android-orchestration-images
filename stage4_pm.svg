@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2730.0" height="1613" viewBox="0 0 2730.0 1613">
+    <!-- Styles -->
+    <style>
+        .terminal-bg { fill: #282c34; }
+        .terminal-header { fill: #21252b; }
+        .terminal-button { stroke: none; }
+        .terminal-text {
+            fill: #abb2bf;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
+            font-size: 13px;
+            white-space: pre;
+        }
+        .terminal-title { fill: #ffffff; font-size: 13px; }
+        .success { fill: #98c379; }
+        .info { fill: #61afef; }
+    </style>
+
+    <!-- Background -->
+    <rect class="terminal-bg" width="2730.0" height="1613" rx="6"/>
+
+    <!-- Header -->
+    <rect class="terminal-header" width="2730.0" height="35" rx="6"/>
+    <rect class="terminal-header" y="29" width="2730.0" height="6"/>
+
+    <!-- Terminal buttons -->
+    <circle class="terminal-button" cx="20" cy="18" r="6" fill="#ff5f56"/>
+    <circle class="terminal-button" cx="40" cy="18" r="6" fill="#ffbd2e"/>
+    <circle class="terminal-button" cx="60" cy="18" r="6" fill="#27c93f"/>
+
+    <!-- Title -->
+    <text class="terminal-text terminal-title" x="80" y="22">Stage 4 - PM Agent Full Automation</text>
+
+    <!-- Text content -->
+    <text class="terminal-text" x="15" y="65">╭─── Claude Code v2.0.13 ──────────────────────────────────────────────────────╮</text>
+    <text class="terminal-text" x="15" y="83">│                       ▐▛███▜▌                      │                         │</text>
+    <text class="terminal-text" x="15" y="101">│                      ▝▜█████▛▘                     │                         │</text>
+    <text class="terminal-text" x="15" y="119">│                        ▘▘ ▝▝                       │                         │</text>
+    <text class="terminal-text" x="15" y="137">│              Sonnet 4.5 · Claude Max               │                         │</text>
+    <text class="terminal-text" x="15" y="155">│  /…/aisample/android-orchestration-demo-v2/stage4  │                         │</text>
+    <text class="terminal-text" x="15" y="173">╰──────────────────────────────────────────────────────────────────────────────╯</text>
+    <text class="terminal-text" x="15" y="191"></text>
+    <text class="terminal-text" x="15" y="209">────────────────────────────────────────────────────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="227">&gt; @pm_CLAUDE.md</text>
+    <text class="terminal-text" x="15" y="245">  Set up a complete Android app development pipeline for a weather app based</text>
+    <text class="terminal-text" x="15" y="263">  on ../weather-app.spec.yaml. Create all agent configurations, set up tmux</text>
+    <text class="terminal-text" x="15" y="281">  sessions, launch Claude CLI for each agent, and execute the full pipeline.</text>
+    <text class="terminal-text" x="15" y="299"></text>
+    <text class="terminal-text" x="15" y="317">  ⎿  Read pm_CLAUDE.md (97 lines)</text>
+    <text class="terminal-text" x="15" y="335"></text>
+    <text class="terminal-text info" x="15" y="353">⏺ I&apos;ll set up the complete Android app development pipeline with full</text>
+    <text class="terminal-text" x="15" y="371">  automation. This includes creating all agent configurations, LangGraph</text>
+    <text class="terminal-text" x="15" y="389">  workflow, tmux infrastructure, and executing the entire pipeline.</text>
+    <text class="terminal-text" x="15" y="407"></text>
+    <text class="terminal-text" x="15" y="425">  Phase 1: Project Structure Setup</text>
+    <text class="terminal-text" x="15" y="443">  ─────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="461"></text>
+    <text class="terminal-text" x="15" y="479">  Creating directory structure:</text>
+    <text class="terminal-text" x="15" y="497">  ✓ weather-pipeline/</text>
+    <text class="terminal-text" x="15" y="515">  ✓ weather-pipeline/dev/</text>
+    <text class="terminal-text" x="15" y="533">  ✓ weather-pipeline/qa/</text>
+    <text class="terminal-text" x="15" y="551">  ✓ weather-pipeline/doc/</text>
+    <text class="terminal-text" x="15" y="569">  ✓ weather-pipeline/deploy/</text>
+    <text class="terminal-text" x="15" y="587"></text>
+    <text class="terminal-text" x="15" y="605">  Phase 2: Agent Configuration Files</text>
+    <text class="terminal-text" x="15" y="623">  ───────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="641"></text>
+    <text class="terminal-text" x="15" y="659">  Generating CLAUDE.md files:</text>
+    <text class="terminal-text" x="15" y="677">  ✓ dev/dev_CLAUDE.md - Development Agent instructions</text>
+    <text class="terminal-text" x="15" y="695">  ✓ qa/qa_CLAUDE.md - QA Agent instructions</text>
+    <text class="terminal-text" x="15" y="713">  ✓ doc/doc_CLAUDE.md - Documentation Agent instructions</text>
+    <text class="terminal-text" x="15" y="731">  ✓ deploy/deploy_CLAUDE.md - Deployment Agent instructions</text>
+    <text class="terminal-text" x="15" y="749"></text>
+    <text class="terminal-text" x="15" y="767">  Phase 3: LangGraph Workflow Creation</text>
+    <text class="terminal-text" x="15" y="785">  ─────────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="803"></text>
+    <text class="terminal-text" x="15" y="821">  ✓ workflow.py created with state machine</text>
+    <text class="terminal-text" x="15" y="839">  ✓ Configured dev → qa → doc → deploy pipeline</text>
+    <text class="terminal-text" x="15" y="857">  ✓ Added error handling and retry logic</text>
+    <text class="terminal-text" x="15" y="875"></text>
+    <text class="terminal-text" x="15" y="893">  Phase 4: Tmux Infrastructure Setup</text>
+    <text class="terminal-text" x="15" y="911">  ───────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="929"></text>
+    <text class="terminal-text" x="15" y="947">  Creating tmux sessions:</text>
+    <text class="terminal-text" x="15" y="965">  ✓ tmux session &apos;weather-dev&apos; created</text>
+    <text class="terminal-text" x="15" y="983">  ✓ tmux session &apos;weather-qa&apos; created</text>
+    <text class="terminal-text" x="15" y="1001">  ✓ tmux session &apos;weather-doc&apos; created</text>
+    <text class="terminal-text" x="15" y="1019">  ✓ tmux session &apos;weather-deploy&apos; created</text>
+    <text class="terminal-text" x="15" y="1037"></text>
+    <text class="terminal-text" x="15" y="1055">  Launching Claude CLI in each session:</text>
+    <text class="terminal-text" x="15" y="1073">  ✓ Claude CLI started in weather-dev</text>
+    <text class="terminal-text" x="15" y="1091">  ✓ Claude CLI started in weather-qa</text>
+    <text class="terminal-text" x="15" y="1109">  ✓ Claude CLI started in weather-doc</text>
+    <text class="terminal-text" x="15" y="1127">  ✓ Claude CLI started in weather-deploy</text>
+    <text class="terminal-text" x="15" y="1145"></text>
+    <text class="terminal-text" x="15" y="1163">  Loading agent configurations:</text>
+    <text class="terminal-text" x="15" y="1181">  ✓ dev_CLAUDE.md loaded in weather-dev</text>
+    <text class="terminal-text" x="15" y="1199">  ✓ qa_CLAUDE.md loaded in weather-qa</text>
+    <text class="terminal-text" x="15" y="1217">  ✓ doc_CLAUDE.md loaded in weather-doc</text>
+    <text class="terminal-text" x="15" y="1235">  ✓ deploy_CLAUDE.md loaded in weather-deploy</text>
+    <text class="terminal-text" x="15" y="1253"></text>
+    <text class="terminal-text" x="15" y="1271">  Phase 5: Pipeline Execution</text>
+    <text class="terminal-text" x="15" y="1289">  ────────────────────────────</text>
+    <text class="terminal-text" x="15" y="1307"></text>
+    <text class="terminal-text" x="15" y="1325">  Executing LangGraph workflow...</text>
+    <text class="terminal-text" x="15" y="1343">  ✓ Dev Agent: Generated 12 Kotlin files</text>
+    <text class="terminal-text" x="15" y="1361">  ✓ Build Status: Success</text>
+    <text class="terminal-text" x="15" y="1379">  ✓ QA Agent: 28 tests passed, 0 failed</text>
+    <text class="terminal-text" x="15" y="1397">  ✓ Coverage: 89%</text>
+    <text class="terminal-text" x="15" y="1415">  ✓ Doc Agent: Generated API docs and README</text>
+    <text class="terminal-text" x="15" y="1433">  ✓ Deploy Agent: Deployed to staging environment</text>
+    <text class="terminal-text" x="15" y="1451"></text>
+    <text class="terminal-text success" x="15" y="1469">  RESPONSE:{&quot;status&quot;: &quot;success&quot;, &quot;system_setup&quot;: &quot;complete&quot;, &quot;pipeline_status&quot;: &quot;completed&quot;, &quot;agents_launched&quot;: [&quot;dev&quot;, &quot;qa&quot;, &quot;doc&quot;, &quot;deploy&quot;], &quot;summary&quot;: {&quot;project&quot;: &quot;weather-app&quot;, &quot;infrastructure&quot;: &quot;tmux + claude-cli&quot;, &quot;workflow&quot;: &quot;langgraph&quot;, &quot;agents&quot;: 4, &quot;automation_level&quot;: &quot;full&quot;, &quot;build_status&quot;: &quot;success&quot;, &quot;tests_passed&quot;: 28, &quot;coverage&quot;: 89, &quot;deployment&quot;: &quot;staging&quot;}}</text>
+    <text class="terminal-text" x="15" y="1487"></text>
+    <text class="terminal-text" x="15" y="1505">────────────────────────────────────────────────────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="1523">&gt;</text>
+    <text class="terminal-text" x="15" y="1541">────────────────────────────────────────────────────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="1559">  ⏵⏵ bypass permissions on                        Thinking off (tab to toggle)</text>
+    <text class="terminal-text" x="15" y="1577">  (shift+tab to cycle)               ✗ Auto-update failed · Try claude doctor</text>
+    <text class="terminal-text" x="15" y="1595">                                     or npm i -g @anthropic-ai/claude-code</text>
+</svg>
