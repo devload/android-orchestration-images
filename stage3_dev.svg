@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="606.0" height="515" viewBox="0 0 606.0 515">
+    <!-- Styles -->
+    <style>
+        .terminal-bg { fill: #282c34; }
+        .terminal-header { fill: #21252b; }
+        .terminal-button { stroke: none; }
+        .terminal-text {
+            fill: #abb2bf;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
+            font-size: 13px;
+            white-space: pre;
+        }
+        .terminal-title { fill: #ffffff; font-size: 13px; }
+        .success { fill: #98c379; }
+        .info { fill: #61afef; }
+    </style>
+
+    <!-- Background -->
+    <rect class="terminal-bg" width="606.0" height="515" rx="6"/>
+
+    <!-- Header -->
+    <rect class="terminal-header" width="606.0" height="35" rx="6"/>
+    <rect class="terminal-header" y="29" width="606.0" height="6"/>
+
+    <!-- Terminal buttons -->
+    <circle class="terminal-button" cx="20" cy="18" r="6" fill="#ff5f56"/>
+    <circle class="terminal-button" cx="40" cy="18" r="6" fill="#ffbd2e"/>
+    <circle class="terminal-button" cx="60" cy="18" r="6" fill="#27c93f"/>
+
+    <!-- Title -->
+    <text class="terminal-text terminal-title" x="80" y="22">Stage 3 - Dev Agent</text>
+
+    <!-- Text content -->
+    <text class="terminal-text" x="15" y="65">cd /Users/rohsunghyun/aisample/android-orchestration-demo-v2/stage3</text>
+    <text class="terminal-text" x="15" y="83">claude --dangerously-skip-permissions</text>
+    <text class="terminal-text" x="15" y="101">rohsunghyun@Rohui-MacBookPro stage3 % cd /Users/rohsunghyun/aisample/android-orc</text>
+    <text class="terminal-text" x="15" y="119">hestration-demo-v2/stage3</text>
+    <text class="terminal-text" x="15" y="137">claude --dangerously-skip-permissions</text>
+    <text class="terminal-text" x="15" y="155">rohsunghyun@Rohui-MacBookPro stage3 % claude --dangerously-skip-permissions</text>
+    <text class="terminal-text" x="15" y="173"></text>
+    <text class="terminal-text" x="15" y="191">╭─── Claude Code v2.0.13 ──────────────────────────────────────────────────────╮</text>
+    <text class="terminal-text" x="15" y="209">│                                                    │ Tips for getting        │</text>
+    <text class="terminal-text" x="15" y="227">│                Welcome back devload!               │ started                 │</text>
+    <text class="terminal-text" x="15" y="245">│                                                    │ Run /init to create a … │</text>
+    <text class="terminal-text" x="15" y="263">│                       ▐▛███▜▌                      │ ─────────────────────── │</text>
+    <text class="terminal-text" x="15" y="281">│                      ▝▜█████▛▘                     │ Recent activity         │</text>
+    <text class="terminal-text" x="15" y="299">│                        ▘▘ ▝▝                       │ No recent activity      │</text>
+    <text class="terminal-text" x="15" y="317">│                                                    │                         │</text>
+    <text class="terminal-text" x="15" y="335">│              Sonnet 4.5 · Claude Max               │                         │</text>
+    <text class="terminal-text" x="15" y="353">│  /…/aisample/android-orchestration-demo-v2/stage3  │                         │</text>
+    <text class="terminal-text" x="15" y="371">╰──────────────────────────────────────────────────────────────────────────────╯</text>
+    <text class="terminal-text" x="15" y="389"></text>
+    <text class="terminal-text" x="15" y="407">────────────────────────────────────────────────────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="425">&gt; Try &quot;fix lint errors&quot;</text>
+    <text class="terminal-text" x="15" y="443">────────────────────────────────────────────────────────────────────────────────</text>
+    <text class="terminal-text" x="15" y="461">  ⏵⏵ bypass permissions on                        Thinking off (tab to toggle)</text>
+    <text class="terminal-text" x="15" y="479">  (shift+tab to cycle)               ✗ Auto-update failed · Try claude doctor</text>
+    <text class="terminal-text" x="15" y="497">                                     or npm i -g @anthropic-ai/claude-code</text>
+</svg>
